@@ -17,7 +17,7 @@ document.querySelector('.hamburg').addEventListener("click", () => {
     
             function startTyping() {
                 var typed = new Typed(".typed-text", {
-                    strings: ["Goutam Kushwah.", "Coder.", "Web developer."],
+                    strings: ["Vishal Badole.", "Coder.", "Web developer."],
                     typeSpeed: 200,
                     backSpeed: 200,
                     loop: true
