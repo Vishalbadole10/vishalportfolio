@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typed Text Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    <style>
+        /* CSS for the typed text animation */
+        .typed-text {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Typed Text Example</h1>
+
+    <p>
+        <span class="typed-text"></span>
+    </p>
+
+    <script>
+        function startTyping() {
+            var typed = new Typed(".typed-text", {
+                strings: ["Vishal Badole", "Coder.", "Web developer."],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            });
+        }
+
+        // Start the typing animation when the page is loaded
+        document.addEventListener("DOMContentLoaded", startTyping);
+    </script>
+</body>
+</html>

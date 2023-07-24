@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    background-color:black;
+    position: absolute;
+  height: 100vh;
+ font-family: 'Fira Sans', sans-serif;
+ transition:transform 0.3s ease-in ;
+ 
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+ text-decoration: none;
+ color:white; 
+}
+.ab{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+    justify-self: auto;
+}
+.countiner{
+    display: flex;
+}
+.infocountiner{
+   /* background-color:pink;*/
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+margin-top: 100px;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    flex-direction:column;
+   
+font-family : 'Source Code Pro', monospace;
+}
+.devpic img{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    margin-left:30px ;
+}
+.hello{
+    font-size: 3em;
+} 
+.name{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+font-size: 2.2em ;   
+    
+}
+.btn{
+    margin-top: 2em;
+    font-size: 16px;
+}
+.moreabout{
+    font-size:2em ;
+    font-family: 'Fira Sans', sans-serif;
+}
+.btn button{
+ padding: 9px 14px;
+ border-radius: 22px;
+ color: white;
+ background-color: dodgerblue;
+ font-weight: bold;
+ font-size: 17px;
+ margin: 0 3px;
+}
+.btn button:hover{
+   background-color: white;
+  color: dodgerblue;
+}
+.contectform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    margin: 88px;
+   }
+.contectform h1{
+    font-family : 'Source Code Pro', monospace; 
+  padding: 12px 0;
+}
+.contectform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contectform form div input{
+    width: 26vw;
+    border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+   
+}
+.ab li{
+    list-style-type: none;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+#vishalbadole{
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
+h1{
+    font-family:'Fira Sans', sans-serif;
+    margin: 23px;
+}
+p{
+    font-family:'Source Code Pro', monospace;
+}
+.Aboutme{
+    margin: 0 100px;
+}
+.Projects{
+    margin: 0 100px;
+}
+.intro h2{
+    font-family:'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family:'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skilcountiner{
+    padding: 12px;
+}
+
+.skiliteam{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.hunded{
+    width: 265px;
+}
+.fifty{
+    width: 125px;
+}
+.two5{
+    width: 75px;
+}
+.hamburg{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+margin-left: 165px;
+margin-top: 10px;
+}
+.Proj {
+    margin: 60px;
+} 
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.address{
+    align-items: end;
+    width: 310px
+}
+.contectform{
+display: flex;
+flex-direction: row;
+}
+  body{
+   /* background-image: url('back.jpg');*/
+   background-color: bisque;
+    width: 1000px;
+    height: 1000px;
+  }
+  #but{
+    margin: 100px;
+    padding: 100px;
+    height: 283px;
+    width: 400px;;
+    
+  }
+  .Typed{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+}
+@media(max-width:300px ) {
+  
+  .devinfo{
+font-size: small;
+  } 
+  /* .devpic  {
+    display: none;
+}*/
+.intro,.contectform{
+    margin: 15px 8px;
+    
+}
+.btn button{
+    font-size: 10px;
+   
+}
+.devpic img { 
+    height: 15vh;
+       
+    }
+
+.typed-text,.vishal{
+    font-size: small;
+}
+.contectform,.main {
+    align-content: first baseline;
+}
+
+}
+/*@media(max-width:400px) {
+    .devpic img{
+        width :100px;
+        height: 100px;
+    }
+    .typed-text,.goutam{
+        font-size:xx-small;
+    }
+}*/
