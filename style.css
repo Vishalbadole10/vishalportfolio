@@ -122,6 +122,9 @@ font-size: 2.2em ;
 .ab li{
     list-style-type: none;
 }
+.social-icon.li{
+    text-decoration: underline;
+}
 #form-check{
     flex-direction: row;
 }
